@@ -1,0 +1,1 @@
+[25-Jan-2013 11:33:38] PHP Warning:  unlink(../../../imagens/banners/lateral/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home/estudio/public_html/clientes/correiopaulinense/admin/paginas/banners/acoes.php on line 91

@@ -1,0 +1,443 @@
+@font-face {
+ font-family: "Segoe";
+ src: url("fonts/segoeuil.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: "Segoe";
+ src: url("fonts/segoeuil.ttf") /* TTF file for CSS3 browsers */
+}
+
+a:hover{
+	color: #000;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	line-height: 150%;
+	margin: 0;
+	padding: 0;
+	color: #666;
+}
+
+#banner_topo{
+	width: 100%;
+	height: 80px;
+	border-bottom: 3px solid #DDD;
+}
+
+#pagina{
+	width: 98%;
+	height: auto;
+	background: #FFF;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+#conteudo{
+	width: 80%;
+	min-width: 730px;
+	height: auto;
+	padding: 10px;
+	float: right;
+	background: #FFF;
+}
+
+#rodape{
+	background: #FFF;
+	width: 100%;
+	padding: 10px 0;
+	height: 80px;
+	text-align: center;
+	border-top: 3px solid #DDD;
+}
+
+#barra_menu{
+	width: 30%;
+	max-width: 200px;
+	height: auto;
+	padding: 10px;
+	float: left;
+	background: #FFF;
+	border: 1px solid #DDD;
+	margin-top: 80px;
+	-webkit-border-radius: 7px 7px 7px 7px;
+	-moz-border-radius: 7px 7px 7px 7px;
+	-khtml-border-radius: 7px 7px 7px 7px;
+	border-radius: 7px 7px 7px 7px;
+}
+
+#conteudo + #barra_menu{
+	width: 95%;
+}
+
+
+#barra_menu ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a.princ:link, a.princ:visited, a.princ{
+	font-size: 16px;
+	cursor: pointer;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 30px;
+	display: block;
+	font-family: "Segoe", Arial, Helvetica, sans-serif;
+}
+
+.sub{
+	margin-left: 20px !important;
+	margin-bottom: 10px !important;
+	font-size: 11px;
+}
+
+.sub a:link, .sub a:visited{
+	text-decoration: none;
+	color: #666;
+	cursor: pointer;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+.sub a:hover{
+	color: #000;
+}
+
+.inputbox{
+	border: 1px solid #DDD;
+	padding: 5px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #EEE;
+	margin: 5px 0;
+}
+
+.button{
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 5px 20px;
+	margin: 5px;
+	cursor: pointer;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: #333;
+	color: #FFF;
+	border: none;
+	-webkit-border-radius: 7px 7px 7px 7px;
+	-moz-border-radius: 7px 7px 7px 7px;
+	-khtml-border-radius: 7px 7px 7px 7px;
+	border-radius: 7px 7px 7px 7px;
+}
+.button:hover{
+	background: #DDD;
+	color: #333;
+}
+
+.tblcadastro{
+	clear: both;
+	margin: 10px auto;
+	width: 100%;
+	border: 1px solid #DDD;
+	-webkit-border-radius: 7px 7px 7px 7px;
+	-moz-border-radius: 7px 7px 7px 7px;
+	-khtml-border-radius: 7px 7px 7px 7px;
+	border-radius: 7px 7px 7px 7px;
+	background: #EEE;
+}
+.tblcadastro th{
+	background: #CCC;
+	color: #333;
+	padding: 5px;
+	-webkit-border-radius: 7px 7px 7px 7px;
+	-moz-border-radius: 7px 7px 7px 7px;
+	-khtml-border-radius: 7px 7px 7px 7px;
+	border-radius: 7px 7px 7px 7px;
+}
+
+.tblcadastro td{
+	border: 1px solid #DDD;
+	padding: 10px;
+	-webkit-border-radius: 7px 7px 7px 7px;
+	-moz-border-radius: 7px 7px 7px 7px;
+	-khtml-border-radius: 7px 7px 7px 7px;
+	border-radius: 7px 7px 7px 7px;
+	background: #FFF;
+}
+
+td.salvar{
+	background: #DDD;
+	text-align: center;
+	border: 1px solid #CCC;	
+}
+
+.tblcadastro a{
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.legenda{
+	font-weight: bold;
+}
+
+.listra2{
+	background: #EEE !important;
+}
+
+.previmagens{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.previmagens li{
+	display: inline-block;
+	text-align: center;
+	margin-right: 50px;
+}
+.previmagens img{
+	border: 1px solid #DDD;
+}
+
+.dataTables_length{
+	width: 200px;
+	float: left;
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+.dataTables_length select{
+	border: 1px solid #666;
+	padding: 5px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #EEE;
+}
+
+.dataTables_filter{
+	width: 300px;
+	float: right;
+	text-align: right;
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+.dataTables_filter input{
+	border: 1px solid #666;
+	padding: 5px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #EEE;
+}
+
+.dataTables_info{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.dataTables_paginate{
+	text-align: center;
+}
+.dataTables_paginate span{
+	padding: 0 10px;
+	cursor: pointer;
+}
+.paginate_active{
+	font-weight: bold;
+}
+
+.sorting{
+	background: url(imagens/sort.gif) no-repeat 90% center;
+	cursor: pointer;
+}
+.sorting_asc{
+	background: url(imagens/sort_asc.gif) no-repeat 90% center;
+	cursor: pointer;
+}
+.sorting_desc{
+	background: url(imagens/sort_desc.gif) no-repeat 90% center;
+	cursor: pointer;
+}
+.sorting_1{
+	font-weight: bold;
+}
+
+#login{
+	width: 100%;
+	height: auto;
+	background: #EEE;
+	font-size: 12px;
+	text-align: right;
+}
+#login a{
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	margin-right: 50px;
+}
+
+.rodada{
+	background: #000;
+	color: #FFF;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 45px;
+}
+
+
+.ico{
+	font-size: 12px;
+}
+
+.lista_fotos{
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+}
+
+.lista_fotos li{
+	display: inline-block;
+	margin: 10px;
+}
+
+small{
+	font-size: 12px;
+}
+
+.cp, #recado{
+	font-weight: bold;
+	color: #C00;
+}
+
+.porcentagem{
+	font-weight: bold; 
+	font-size: 16px; 
+	color: #666;
+}
+
+dl{
+	width: 100%;
+	clear: both;
+}
+dt{
+	border: 1px solid #DDD;
+	padding: 5px;
+	background: #FFF;
+	font-weight: bold;
+}
+dd{
+	border: 1px solid #FFF;
+	background: #666;
+	color: #FFF;
+	border-top: 0;
+	padding: 5px;
+}
+dd + dt{
+	margin-top: 5px;
+}
+
+
+dd.subsubcat{
+	background: #999 !important;
+	color: #FFF !important;
+	border-bottom: 1px solid #FFF !important;
+	margin-left: 80px;
+}
+
+h1, h2, h3{
+	font-weight: normal;
+	text-transform: uppercase;
+	font-family: "Segoe";
+	color: #000;
+}
+
+
+#upload{
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 5px 0;
+	width: 150px;
+	display: block;
+	text-align: center;
+	margin: -7px 10px 0 50px;
+	cursor: pointer;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: #333;
+	color: #FFF;
+	border: none;
+	-webkit-border-radius: 7px 7px 7px 7px;
+	-moz-border-radius: 7px 7px 7px 7px;
+	-khtml-border-radius: 7px 7px 7px 7px;
+	border-radius: 7px 7px 7px 7px;
+	display: block;
+	float: right;
+}
+
+#status{
+	font-size: 12px;
+	color: #C00;
+}
+
+#files{
+	list-style: none;
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+
+#files li{
+	display: inline-block;
+	margin: 5px;
+	padding: 10px;
+	background: #EEE;
+	border: 1px solid #DDD;
+	text-align: center;
+}
+#files li.listabanners{
+	margin: 5px;
+	padding: 10px;
+	background: #EEE;
+	border: 1px solid #DDD;
+	clear: both;
+	width: 90%;
+	text-align: left;
+}
+#files li.listabanners img{
+	float: left;
+	margin-right: 10px;
+}
+
+#files .inputbox{
+	background: #FFF;
+	margin: 0;
+}
+
+.paginacao{
+	text-align: center;
+	margin: 0 0 10px 0;
+	height: auto;
+	width: 100%;
+	clear: both;
+	line-height: 180%;
+}
+.paginacao .num{
+	padding: 0 10px;
+	color: #000;
+}
+.paginacao a{
+	color: #666;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0 10px;
+}
+
+#files .FloatyThumb{
+	width: 210px;
+	height: 120px;
+}
+#files .ico_play{
+	position: absolute;
+	width: 74px;
+	height: 45px;
+	margin: 55px 0 0 80px;
+}

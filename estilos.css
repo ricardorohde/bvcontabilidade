@@ -1,0 +1,520 @@
+@font-face {
+    font-family: 'Zurich';
+    src: url('fonts/tt0296m-webfont.eot');
+    src: url('fonts/tt0296m-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/tt0296m-webfont.woff') format('woff'),
+         url('fonts/tt0296m-webfont.ttf') format('truetype'),
+         url('fonts/tt0296m-webfont.svg#zurich_ltcn_btlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background: url(imagens/bg_degrade.png) no-repeat center top #000;
+	font-size: 16px;
+	color: #888888;
+	font-family: 'Zurich', Arial;
+
+}
+#pagina{
+	width: 990px;
+	margin: 0 auto;
+}
+#pagina_interna{
+	width: 990px;
+	height: 100%;
+	position: fixed;
+	text-align: center;
+	background: url(imagens/barra_esq.png) no-repeat left top,  url(imagens/barra_dir.png) no-repeat right top;
+}
+
+#site{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 5;
+}
+#site_interno{
+	width: 900px;
+	height: auto;
+	margin: 30px auto 0 auto;
+	text-align: center;
+}
+
+#rodape{
+	height: 100px;
+	padding-top: 20px;
+	width: 90%;
+	margin: 50px auto 0 auto;
+	font-size: 14px;
+	line-height: 130%;
+}
+#rodape hr{
+	border: none;
+	border-bottom: 1px solid #666;
+	border-top: 1px solid #111;
+	margin-bottom: 20px;
+}
+
+#topo{
+	height: 104px;
+	width: 90%;
+	margin: 0 auto 0 auto;
+	padding-top: 75px;
+}
+#topo hr{
+	border: none;
+	border-bottom: 1px solid #666;
+	border-top: 1px solid #111;
+}
+.logo{
+	width: 186px;
+	height: 179px;
+	position: absolute;
+	margin: -75px 0 0 10px;
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+	margin: -15px 0 0 230px;
+	width: 580px;
+	position: absolute;
+}
+.menu li{
+	display: inline-block;
+	text-align: center;
+	width: 79px;
+}
+.menu a{
+	text-decoration: none;
+	color: #BBBBBB;
+	text-transform: uppercase;
+	font-family: 'Zurich', Arial;
+	font-size: 14px;
+}
+.menu a:hover{
+	color: #FFF;
+	font-weight: bold;
+}
+.menu img{
+	margin-bottom: 8px;
+}
+
+.texto{
+	width: 85%;
+	height:auto;
+	min-height: 250px;
+	margin: 0 auto;
+	padding: 10px 0 0 0;
+	text-align: left;
+}
+.texto h1{
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: normal;
+}
+.texto h3{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: normal;
+}
+.texto p{
+	line-height: 130%;
+	text-align: justify;
+}
+
+.texto table{
+	border-collapse: collapse;
+}
+.texto table td{
+	padding: 5px;
+}
+
+.esocial{
+	padding: 30px 0 0 0;
+    width: 480px;
+    margin: 10px auto;
+}
+.esocial a{
+	text-decoration: none;
+	color: #888888;
+	line-height: 20px;
+    font-size: 18px;
+}
+.esocial a:hover{
+	text-decoration: none;
+	color: #FFF;
+}
+.logosocial{
+	float: left;
+    width: 100px;
+    margin-top: -18px;
+    margin-right: 20px;
+}
+
+dl{
+	margin: 50px 0 0 0;
+	padding: 0;
+	width: 100%;
+	clear: both;
+}
+dt{
+	text-transform: uppercase;
+	padding: 10px 0 0 0;
+	margin-bottom: 10px;
+	font-weight: bold;
+	cursor: pointer;
+	border-top: 1px solid #333;
+	color: #CCC;
+}
+dd{
+	padding: 0;
+	margin: 0;
+	display: none;
+}
+dd li{
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+dd a{
+	color: #CCC;
+	text-decoration: none;
+}
+dd a:hover{
+	text-decoration: underline;
+}
+
+.submenu{
+	margin: 0 0 20px 0;
+	padding: 0;
+	list-style: none;
+	clear: both;
+}
+.submenu li{
+	float: left;
+	
+}
+.submenu a{
+	text-transform: uppercase;
+	color: #BBBBBB;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 130%;
+	width: 110px;
+	height: 110px;
+	display: block;
+	border: 1px solid #333;
+	background: #000;
+	text-align:center;
+	margin: 10px;
+	border-radius: 5px;
+	padding: 10px;
+}
+.submenu a:hover{
+	color: #FFF;
+	background: #131313;
+}
+.umalinha{
+	padding-top: 50px !important; 
+	height: 70px !important;
+}
+.duaslinhas{
+	padding-top: 40px !important; 
+	height: 80px !important;
+}
+.treslinhas{
+	padding-top: 30px !important; 
+	height: 90px !important;
+}
+
+.inputbox{
+	background: #111;
+	border: 1px solid #333;
+	color: #999;
+	font-family: 'Zurich', Arial;
+	font-size: 16px;
+	outline: none;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+}
+textarea{
+	height: 150px;
+}
+.inputbox:focus{
+	border: 1px solid #DDD;
+}
+
+input::-webkit-input-placeholder { /* WebKit browsers */
+    color: #333 !important;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #333 !important;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #333 !important;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #333 !important;
+}
+
+.button{
+	background: #333;
+	color: #DDD;
+	padding: 10px;
+	text-transform: uppercase;
+	cursor: pointer;
+	border: none;
+}
+
+.valor{
+	text-align: right;
+}
+.imagem{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	clear: both;
+	margin: 15px 0;
+}
+.imagem img{
+	border: 1px solid #CCC;
+	margin-bottom: 10px;
+}
+
+.tblform, .tblform td{
+	border: none !important;
+	line-height: 150%;
+}
+
+.tblform hr{
+	border: none;
+	border-bottom: 1px solid #666;
+	border-top: 1px solid #111;
+}
+
+.clientes{
+	margin: 0 0 0 25px;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+}
+.clientes li{
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin: 8px;
+	border: 1px solid #000;
+	text-align: center;
+	background: #FFF;
+}
+#controle{
+	width: 720px;
+	height: 43px;
+	position: absolute;
+	margin-top: 60px;
+}
+.prev{
+	float: left;
+	cursor: pointer;
+}
+.next{
+	float: right;
+	cursor: pointer;
+}
+
+#formularios{
+	width: 570px;
+	margin: 20px auto;
+	clear: both;
+}
+
+.linkform{
+	font-size: 18px;
+	cursor: pointer;
+}
+.linkform:hover{
+	color: #FFF;
+}
+
+.td_ativo{
+	background: #333 !important;
+}
+
+input.disable{
+	background: #333 !important;
+	color: #333 !important;
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) { /* Specific to this particular image */
+
+#pagina{
+	width: 100%;
+	margin: 0 auto;
+}
+#pagina_interna{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	text-align: center;
+	background: url(imagens/barra_esq.png) no-repeat left top,  url(imagens/barra_dir.png) no-repeat right top;
+}
+
+#site{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 5;
+}
+#site_interno{
+	width: 90%;
+	height: auto;
+	margin: 30px auto 0 auto;
+	text-align: center;
+}
+
+#topo{
+	height: 104px;
+	width: 95%;
+	margin: 0 auto 0 auto;
+	padding-top: 75px;
+}
+
+.logo{
+	width: 186px;
+	height: 179px;
+	position: absolute;
+	margin: -75px 0 0 1%;
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+	margin: -15px 6% 0 0;
+    width: 520px;
+	position: absolute;
+	right: 0;
+}
+.menu li{
+	display: inline-block;
+	text-align: center;
+	width: 70px;
+}
+
+.texto{
+	width: 90%;
+	height:auto;
+	min-height: 250px;
+	margin: 0 5%;
+	padding: 10px 0 0 0;
+	text-align: left;
+}
+.texto h1{
+	text-align: center;
+}
+.submenu{
+	width: 90%;
+	margin: 0 5% 30px 5% !important;
+	border: none;
+	padding: 0;
+	clear: both;
+	list-style: none;
+	text-align:center;
+	border-bottom: 1px solid #333;
+}
+.submenu li{
+	margin: 0 2% 10px 2%;
+	display: inline-block;
+}
+
+dl{
+	margin: 20px auto 0 auto;
+	padding: 0;
+	float: none;
+	width: 570px;
+}
+
+#formularios{
+	width: 570px;
+	float: none;
+	margin: 20px auto 0 auto;
+	clear: both;
+}
+
+}
+
+/*
+@media screen and (max-width: 800px) {
+
+#pagina_interna{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	text-align: center;
+	background: none;
+}
+
+#topo{
+	height: 104px;
+	width: 98%;
+	margin: 0 auto 0 auto;
+	padding-top: 75px;
+}
+#rodape{
+	height: 100px;
+	padding-top: 20px;
+	width: 98%;
+	margin: 50px auto 0 auto;
+	font-size: 14px;
+	line-height: 130%;
+}
+
+#site_interno{
+	width: 100%;
+	height: auto;
+	margin: 30px auto 0 auto;
+	text-align: center;
+}
+.texto{
+	width: 98%;
+	height:auto;
+	min-height: 250px;
+	margin: 0 1%;
+	padding: 10px 0 0 0;
+	text-align: left;
+}
+
+.logo{
+	width: 120px;
+	height: 140px;
+	position: inherit;
+	margin: -75px auto 0 auto;
+}
+.logo img{
+	width: 120px;
+}
+	
+.menu{
+	list-style: none;
+	padding: 0;
+	margin: -15px 0 0 0;
+	width: 100%;
+	position: inherit;
+}
+.menu li{
+	display: inline-block;
+	text-align: center;
+	width: 100px;
+}
+.menu span{
+	display: none;
+}
+
+
+}
+*/
